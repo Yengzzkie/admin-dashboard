@@ -64,10 +64,10 @@
     
     & .group-1 {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 10px;
       background: antiquewhite;
-      padding: 20px;
+      padding: 0 15px;
       
       & > div {
         background: pink;
@@ -80,10 +80,11 @@
       display: grid;
       grid-auto-flow: row;
       gap: 15px;
+      padding: 0 15px;
       
       & > div {
         background: yellow;
-       
+        border-radius: 10px;
       }
     }
     
